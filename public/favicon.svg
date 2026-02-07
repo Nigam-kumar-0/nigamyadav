@@ -1,0 +1,42 @@
+<svg
+  width="300"
+  height="300"
+  viewBox="0 0 300 300"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="145" fill="url(#bgGradient)" />
+
+  <!-- Inner Soft Glow -->
+  <circle cx="150" cy="150" r="120" fill="rgba(255,255,255,0.15)" />
+
+  <!-- Avatar Head -->
+  <circle cx="150" cy="120" r="45" fill="#ffffff" />
+
+  <!-- Avatar Body -->
+  <path
+    d="M90 230c0-35 30-55 60-55s60 20 60 55"
+    fill="#ffffff"
+  />
+
+  <!-- Initial Letter -->
+  <text
+    x="150"
+    y="155"
+    text-anchor="middle"
+    fill="#6366f1"
+    font-size="64"
+    font-family="Poppins, Arial, sans-serif"
+    font-weight="700"
+  >
+    N
+  </text>
+</svg>
