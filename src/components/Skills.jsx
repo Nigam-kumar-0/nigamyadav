@@ -31,7 +31,8 @@ const Skills = () => {
         { name: "TypeScript", icon: <Code2 size={16} /> },
         { name: "Tailwind CSS", icon: <Palette size={16} /> },
         { name: "Redux Toolkit", icon: <Layers size={16} /> },
-        { name: "Framer Motion", icon: <Zap size={16} /> }
+        { name: "Framer Motion", icon: <Zap size={16} /> },
+        { name: "java", icon: <Zap size={16} /> }
       ]
     },
     {
